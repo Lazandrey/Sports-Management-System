@@ -1,9 +1,9 @@
-import { Athlete } from "./Athlete";
+import { Athlete } from "./athlete";
 import { SwimmerType } from "./swimmer.type";
 
 export class Swimmer extends Athlete {
   preferredStroke: string;
-  best100mFreestyleTime: Date;
+  best100mFreestyleTime: number;
 
   constructor({
     athleteID,

@@ -1,6 +1,6 @@
 import { AthleteType } from "./athlete.types";
 
 export type SprinterType = AthleteType & {
-  best100mTime: Date;
-  best200mTime: Date;
+  best100mTime: number;
+  best200mTime: number;
 };

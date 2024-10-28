@@ -1,9 +1,9 @@
-import { Athlete } from "./Athlete";
+import { Athlete } from "./athlete";
 import { SprinterType } from "./sptinter.type";
 
 export class Sprinter extends Athlete {
-  best100mTime: Date;
-  best200mTime: Date;
+  best100mTime: number;
+  best200mTime: number;
 
   constructor({
     athleteID,

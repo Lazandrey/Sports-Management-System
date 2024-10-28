@@ -1,5 +1,5 @@
 import { CompetitionType } from "./competition.type";
-import { MarathonRunnerType } from "./MarathonRunner.types";
+import { MarathonRunnerType } from "./marathonRunner.types";
 import { SprinterType } from "./sptinter.type";
 import { SwimmerType } from "./swimmer.type";
 

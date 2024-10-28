@@ -1,10 +1,10 @@
-import { Athlete } from "./Athlete";
-import { Endurance } from "./Endurance";
-import { MarathonRunnerType } from "./MarathonRunner.types";
+import { Athlete } from "./athlete";
+import { Endurance } from "./endurance";
+import { MarathonRunnerType } from "./marathonRunner.types";
 
 export class MarathonRunner extends Athlete implements Endurance {
   enduranceLevel: number;
-  bestMarathonTime: Date;
+  bestMarathonTime: number;
   constructor({
     athleteID,
     name,
